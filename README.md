@@ -8,6 +8,7 @@ While working on it, I decided to include a password strength checker feature th
 
 # Functionalities
 **1. Generating a Password:**
+#
 • The user answers with "Yes" or "No" to questions about using uppercase letters, lowercase letters, numbers, or symbols.
 
 • The user then enters the desired length of the password.
@@ -19,7 +20,7 @@ While working on it, I decided to include a password strength checker feature th
 • The randomly generated password is then displayed on the console.
 
 **2. Checking a Password's Strength:**
-
+#
 The strength check is based on the following criteria:
 
 • The password uses uppercase letters.
@@ -38,6 +39,6 @@ These criteria are used to calculate a score for the password, which determines 
 
 
 **3. Displaying Useful Information:**
-
+#
 This is a minor feature that displays information for the user on the console about password security, such as avoiding using the same password twice, avoiding character repetition, keyboard patterns, dictionary words, letter or number sequences, etc.
 
