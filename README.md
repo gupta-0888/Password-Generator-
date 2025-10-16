@@ -1,44 +1,61 @@
-# Password-Generator-
-This project is a Java Console Application to generate random passwords and perform password strength checks.
+# 🔐 Password Generator (Java Console Application)
 
-# Introduction
-I decided to build this project during the Winter Break of my second year after taking the Object-Oriented Effective Java Programming course. I wanted to build something interesting with Java to practice and see what I could do on my own. However, I still wasn't sure what I wanted to do. Then one night, while explaining to my father the importance of having a strong password for his social media accounts, I got the idea of creating a random password generator. A week later, it was done.
+## 📘 Project Overview
+I built this **Password Generator** during the Winter Break of my second year after completing the **Object-Oriented Effective Java Programming** course.  
+The goal was to practice Java by creating something practical and interesting. The idea came while explaining to my father the importance of using strong passwords for his social media accounts. A week later, the console-based password generator was complete.  
 
-While working on it, I decided to include a password strength checker feature that checks the overall strength of the entered password. I was pretty happy with how it turned out, but I realized that it was not very straightforward to use for someone who does not know how it is supposed to work. So, I decided to create a GUI for the application for the next step, which is available in the Password-Services repository.
+Later, I also added a **password strength checker** feature and included **useful security tips** for users. A GUI version of this project is available in the [Password-Services repository](#).
 
-# Functionalities
-**1. Generating a Password:**
-#
-• The user answers with "Yes" or "No" to questions about using uppercase letters, lowercase letters, numbers, or symbols.
+---
 
-• The user then enters the desired length of the password.
- 
-• A password alphabet is generated based on the user's answers, which is a string containing the chosen characters.
+## ⚙️ Functionalities
 
-• Random characters from the password alphabet are selected and combined to form a completely random string according to the user's preferences.
+### 1. Generating a Password
+- The user answers "Yes" or "No" to questions about including **uppercase letters, lowercase letters, numbers, or symbols**.  
+- The user enters the desired **password length**.  
+- A **password alphabet** is generated based on the user's choices.  
+- Random characters from the password alphabet are selected to form a completely random string.  
+- The generated password is displayed on the console.
 
-• The randomly generated password is then displayed on the console.
-#
-**2. Checking a Password's Strength:**
-#
-The strength check is based on the following criteria:
+### 2. Checking a Password's Strength
+- The strength is determined based on:  
+  - Presence of uppercase letters  
+  - Presence of lowercase letters  
+  - Presence of numbers  
+  - Presence of symbols  
+  - Length ≥ 8 (minimum decent password length)  
+  - Length ≥ 16 (minimum good password length)  
+- A **score is calculated** and displayed as **weak / medium / good / great**.
 
-• The password uses uppercase letters.
+### 3. Displaying Useful Security Information
+- Console messages provide guidance such as:  
+  - Avoid using the same password twice  
+  - Avoid repeating characters  
+  - Avoid keyboard patterns or sequences  
+  - Avoid dictionary words or number sequences  
 
-• The password uses lowercase letters.
+---
 
-• The password uses numbers.
+## 🧑‍💻 Technologies Used
+| Category | Tools / Technologies |
+|-----------|----------------------|
+| Programming Language | Java |
+| IDE | Eclipse / IntelliJ IDEA / NetBeans |
+| Concepts | OOP, Randomization, Loops, Conditionals, Input Validation |
+| Version Control | Git, GitHub |
 
-• The password uses symbols.
+---
 
-• The length of the password is 8 or more (8 is often the minimum required length for a decent password).
+## 🧠 Learning Outcomes
+- Practiced **Java programming** and **OOP principles**.  
+- Learned to implement **randomized logic** for password generation.  
+- Developed **password strength scoring algorithms**.  
+- Gained experience in **console-based user interaction**.  
+- Learned to provide **helpful security guidance** for end-users.
 
-• The length of the password is 16 or more (16 is considered to be the minimum length for a good password).
+---
 
-These criteria are used to calculate a score for the password, which determines the message displayed to the user indicating the strength of the password (weak/medium/good/great).
-
-#
-**3. Displaying Useful Information:**
-#
-This is a minor feature that displays information for the user on the console about password security, such as avoiding using the same password twice, avoiding character repetition, keyboard patterns, dictionary words, letter or number sequences, etc.
-
+## 🚀 How to Run the Project
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/aman-gupta-aman8888/Password-Generator.git
